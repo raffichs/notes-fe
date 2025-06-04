@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://backend-note1-784510099957.us-central1.run.app"; // Backend URL
+const API_URL = "https://be-784510099957.us-central1.run.app/"; // Backend URL
 // const API_URL = "http://localhost:8080"; // Backend URL
 
 export const getNotes = async () => {
