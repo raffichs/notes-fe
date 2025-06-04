@@ -1,2 +1,17 @@
 runtime: nodejs20
 service: default
+
+env_variables:
+  NODE_ENV: production
+
+handlers:
+  # Serve static files
+  - url: /assets
+    static_dir: dist/assets
+    secure: always
+
+  # Serve the main HTML file for all routes (SPA routing)
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+    secure: always
