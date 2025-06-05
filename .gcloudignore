@@ -1,9 +1,7 @@
-<!-- # Node.js dependencies
+# Node.js dependencies
 node_modules/
 
 # Build artifacts that shouldn't be deployed
-src/
-public/
 *.md
 .git/
 .gitignore
@@ -14,4 +12,4 @@ public/
 .eslintrc*
 vite.config.js
 tailwind.config.js
-postcss.config.js -->
+postcss.config.js
