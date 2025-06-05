@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL = "https://be-784510099957.us-central1.run.app/"; // Backend URL
-// const API_URL = "http://localhost:8080"; // Backend URL
+// const API_URL = "http://localhost:5000"; // Backend URL
 
 export const getNotes = async () => {
   const response = await axios.get(`${API_URL}/notes`);

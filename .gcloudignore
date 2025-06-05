@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts that shouldn't be deployed
+src/
+public/
+*.md
+.git/
+.gitignore
+
+# Development files
+.env.local
+.env.development
+.eslintrc*
+vite.config.js
+tailwind.config.js
+postcss.config.js
